@@ -9,12 +9,16 @@ package praktikum3;
  * @author mazedev
  */
 public class Main {
-    public static void main(String[] args) {   
+    public static void main(String[] args) { 
+//        Hewan kucing = new Hewan();
+//        kucing.nama = "Mimi";
+//        kucing.umur = 3;
+//        kucing.suara();
         Hewan kucing = new Hewan("Mimi", 3);
         Hewan anjing = new Hewan("Anjing", 2);
 
         kucing.suara();
-
+//
         kucing.info();
         
         anjing.info();

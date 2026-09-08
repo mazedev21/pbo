@@ -9,6 +9,8 @@ package praktikum3;
  * @author mazedev
  */
 public class Hewan {
+    
+    // Inisiasi atribut milik class Hewan
     private String nama;
     private int umur;
     
