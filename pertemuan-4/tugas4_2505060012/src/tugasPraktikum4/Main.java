@@ -22,7 +22,7 @@ public class Main {
         
         System.out.println(pekerja1.usia);
         System.out.println(pekerja1.pekerjaan);
-        System.out.println(pekerja1.gaji);
+//        System.out.println(pekerja1.gaji);
         
     }
 }
