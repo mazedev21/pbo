@@ -10,10 +10,23 @@ package praktikum6;
  */
 public class Main {
     public static void main(String[] args) {
-        Hewan kucing = new Hewan();
-        kucing.bersuara();
-        kucing.makan("ikan"); // Memanggil metode makan() dari kelas Hewan
-        kucing.makan("ikan", 2); // Memanggil metoder makan() yang di overload
+//        Hewan kucing = new Hewan();
+//        kucing.bersuara();
+//        kucing.makan("ikan"); // Memanggil metode makan() dari kelas Hewan
+//        kucing.makan("ikan", 2); // Memanggil metoder makan() yang di overload
+
+          
+          Hewan hewan = new Kucing();
+          hewan.bersuara();
+          
+          Kucing kucing = new Kucing();
+          kucing.makan("Ikan");
+          
+          kucing.makan("ikan", 2);
+          
+          Anjing anjing = new Anjing();
+          anjing.bersuara();
+          anjing.makan("daging", 3);          
     }
 }
 

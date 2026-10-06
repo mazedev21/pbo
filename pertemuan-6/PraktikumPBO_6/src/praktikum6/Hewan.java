@@ -21,3 +21,17 @@ public class Hewan {
         System.out.println("Hewan makan " + jumlah + " porsi " + makanan);
     }
 }
+
+class Kucing extends Hewan {
+    @Override
+    public void bersuara() {
+        System.out.println("Meow");
+    }
+}
+
+class Anjing extends Hewan {
+    @Override
+    public void bersuara() {
+        System.out.println("Woof");
+    }
+}
